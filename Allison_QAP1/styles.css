@@ -1,0 +1,152 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+}
+
+.mainbox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 1006px;
+  background-color: white;
+  border: 3px solid gray;
+  margin: 20px;
+  text-align: left;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  padding: 5px 25px;
+}
+
+.navboxes {
+  width: 215px;
+  height: 50px;
+  background-color: lightgray;
+
+  padding-top: 12px;
+  margin: 10px;
+  border: 1px solid gray;
+  text-align: center;
+
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px;
+}
+
+nav a:link {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 18pt;
+  text-decoration: none;
+  color: red;
+}
+
+nav a:visited {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 18pt;
+  text-decoration: none;
+  color: red;
+}
+
+nav a:hover {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 18pt;
+  text-decoration: none;
+  color: white;
+  background-color: red;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+
+  width: 1000px;
+  height: 835px;
+  background-color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding: 25px;
+  text-align: left;
+}
+
+h1,
+h2 {
+  color: red;
+}
+
+.mainboxleft {
+  width: 470px;
+  height: 265px;
+  background-color: lightgray;
+
+  padding: 10px;
+  font-size: 14pt;
+  margin: 5px;
+}
+
+.mainboxright {
+  width: 470px;
+  height: 265px;
+  background-color: white;
+
+  font-size: 14pt;
+}
+
+footer {
+  width: 1000px;
+  height: 40px;
+  background-color: white;
+  color: black;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding: 10px 0px 0px 10px;
+  border-top: 1px solid gray;
+}
+
+.listpadding {
+  padding: 0px 0px 0px 20px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mainboxleftimg {
+  width: 470px;
+  height: 265px;
+  background-color: white;
+
+  font-size: 14pt;
+
+  margin: 5px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.formvid {
+  display: flex;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    margin: 20px;
+  }
+  main {
+    justify-content: center;
+  }
+}

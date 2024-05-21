@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0" />
+
+    <title>QAP_1</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="mainbox">
+      <header>
+        <img
+          src="Images/ToyotaBanner.jpg"
+          alt="Toyota Logo"
+          width="1000px"
+          height="300px"
+        />
+      </header>
+
+      <nav>
+        <div class="navboxes">
+          <a href="index.html">HOME</a>
+        </div>
+        <div class="navboxes">
+          <a href="trims.html">TRIMS</a>
+        </div>
+        <div class="navboxes">
+          <a href="about.html">ABOUT</a>
+        </div>
+        <div class="navboxes">
+          <a href="contact.html">CONTACT</a>
+        </div>
+      </nav>
+
+      <main>
+        <form>
+          <h1>Contact Us</h1>
+          <br />
+          <label for="firstname">First Name</label>
+          <input
+            type="text"
+            id="First Name"
+            name="firstname"
+            autofocus
+            autocomplete="given-name"
+            placeholder="Your first name here"
+            maxlength="50"
+            tabindex="1"
+          />
+
+          <br />
+
+          <label for="firstname">Last Name</label>
+          <input
+            type="text"
+            id="Last Name"
+            name="lasstname"
+            autofocus
+            autocomplete="given-name"
+            placeholder="Your last name here"
+            maxlength="50"
+            tabindex="1"
+          />
+
+          <br />
+
+          <label for="email">Email</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            autocomplete="email"
+            placeholder="Your email here"
+            tabindex="2"
+          />
+
+          <br />
+
+          <label for="date">Date</label>
+          <input type="date" id="date" name="id" tabindex="3" />
+          <br />
+
+          <br />
+
+          <label for="comments">Comments</label>
+          <textarea
+            name="comments"
+            id="comments"
+            cols="10"
+            rows="10"
+            placeholder="Your comments here"
+            tabindex="5"
+          ></textarea>
+
+          <br />
+
+          <input type="submit" value="Submit" />
+        </form>
+
+        <br />
+        <div class="formvid">
+          <iframe
+            width="560"
+            height="265"
+            src="https://www.youtube.com/embed/ruoN5ujvl0Q?si=MINNsM3dHue-2_kq"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </div>
+
+        <audio>
+          <source src="Media/caracceleration.mp3" />
+        </audio>
+      </main>
+
+      <footer>
+        <h4>Copyright © 2024 by Toyota All Rights Reserved.</h4>
+      </footer>
+    </div>
+  </body>
+</html>
